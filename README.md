@@ -3,9 +3,6 @@
 <img align="right" alt="Coding" width="400" src="https://media.tenor.com/2uyENRmiUt0AAAAC/coding.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ihsankottupadam&label=Profile%20views&color=0e75b6&style=flat" alt="ihsankottupadam" /> </p>
 
-
-- 🔭 I’m currently working on **Tailus(Social networking app)**
-
 - 🌱 I’m currently learning **New technologies**
 
 - 💬 Ask me about **Android,Java, Flutter ,Dart**
