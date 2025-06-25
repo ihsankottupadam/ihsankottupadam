@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **New technologies**
 
-- 💬 Ask me about **Android,Java, Flutter ,Dart**
+- 💬 Ask me about **Python, Android, Java, Flutter ,Dart**
 
 - 📫 How to reach me **ihsanpv007@gmail.com**
 
