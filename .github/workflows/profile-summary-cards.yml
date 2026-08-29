@@ -26,34 +26,3 @@ jobs:
           BRANCH_NAME: "main"
           UTC_OFFSET: 5.5
           THEME: "transparent"
-
-      # streak-stats.demolab.com can take ~25s from cold, which is far longer
-      # than GitHub's camo proxy will wait — hotlinking it renders as a broken
-      # image. Fetch it here, where a slow response is fine, and serve the SVG
-      # from the repo instead.
-      - name: Fetch contribution streak card
-        run: |
-          mkdir -p assets
-          curl -sS --fail --retry 5 --retry-all-errors --retry-delay 10 --max-time 120 \
-            -o assets/streak.svg \
-            "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true&theme=transparent"
-          # the service answers 200 with an error card when its API call fails;
-          # committing that would replace a live card with a sad face
-          grep -q '</svg>' assets/streak.svg
-          if grep -qi 'Failed to retrieve' assets/streak.svg; then
-            echo "::error::streak service returned its error card; not committing"
-            exit 1
-          fi
-
-      - name: Commit streak card
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/streak.svg
-          if git diff --staged --quiet; then
-            echo "streak card unchanged"
-          else
-            git commit -m "chore: refresh contribution streak card"
-            git pull --rebase
-            git push
-          fi
