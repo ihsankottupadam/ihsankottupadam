@@ -1,10 +1,10 @@
-<h1 align="center">Hi 👋, I'm Muhammed Ihsan</h1>
+<h1 align="left">Hi 👋, I'm Muhammed Ihsan</h1>
 
-<h3 align="center">
+<h3 align="left">
 AI & Python Developer · Software Engineer · Builder
 </h3>
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/ihsankottupadam">
     <img src="https://komarev.com/ghpvc/?username=ihsankottupadam&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
   </a>
