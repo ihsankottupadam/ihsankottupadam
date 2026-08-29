@@ -92,9 +92,9 @@ I enjoy turning ideas into working products and experimenting with new technolog
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/ihsankottupadam/ihsankottupadam/main/profile-summary-card-output/transparent/2-most-commit-language.svg"
+    src="https://raw.githubusercontent.com/ihsankottupadam/ihsankottupadam/main/profile-summary-card-output/transparent/1-repos-per-language.svg"
     height="200"
-    alt="Top languages by commit"
+    alt="Top languages by repo"
   />
 </p>
 
