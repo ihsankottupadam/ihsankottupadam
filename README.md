@@ -71,19 +71,8 @@ I enjoy turning ideas into working products and experimenting with new technolog
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=ihsankottupadam&hide_border=true&theme=transparent"
+    src="https://raw.githubusercontent.com/ihsankottupadam/ihsankottupadam/main/assets/streak.svg"
     alt="GitHub Streak"
-  />
-</p>
-
----
-
-### 📈 Contribution Graph
-
-<p align="center">
-  <img
-    src="https://ghchart.rshah.org/0e75b6/ihsankottupadam"
-    alt="Contribution Graph"
   />
 </p>
 
